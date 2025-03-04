@@ -4,8 +4,8 @@ import { Check, Download, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import AppFeatures from "@/components/mobile-app/app-features"
-import AppScreenshots from "@/components/mobile-app/app-screenshots"
+import AppFeatures from "@/components/app-features"
+import AppScreenshots from "@/components/app-screenshots"
 
 export default function MobileAppPage() {
   return (
