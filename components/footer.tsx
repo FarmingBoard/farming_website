@@ -128,13 +128,13 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Mail className="mr-2 h-5 w-5 text-green-400" />
-                <span className="text-sm text-green-200">contact@smartfarm.vn</span>
+                <span className="text-sm text-green-200">contact@sfit.com</span>
               </li>
               <li className="flex items-start">
                 <Phone className="mr-2 h-5 w-5 text-green-400" />
-                <span className="text-sm text-green-200">028 3456 7890</span>
+                <span className="text-sm text-green-200">0123456789</span>
               </li>
-              <li className="text-sm text-green-200">Tòa nhà Tech Tower, 123 Đường Công Nghệ, Quận 1, TP.HCM</li>
+              <li className="text-sm text-green-200">UTC, HaNoi, VietNam</li>
             </ul>
           </div>
         </div>
