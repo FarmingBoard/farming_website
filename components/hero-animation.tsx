@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react"
 import Image from "next/image"
+import image1 from "../assets/logo.webp";
 
 export default function HeroAnimation() {
   const [isVisible, setIsVisible] = useState(false)
@@ -26,7 +27,7 @@ export default function HeroAnimation() {
         }`}
       >
         <Image
-          src="/placeholder.svg?height=400&width=500"
+          src={image1}
           width={400}
           height={400}
           alt="Smart Farming Dashboard"

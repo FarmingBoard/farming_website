@@ -16,7 +16,7 @@ export default function MobileAppPage() {
         <section className="relative overflow-hidden bg-gradient-to-b from-green-50 to-white py-16 md:py-24 lg:py-32">
           <div className="container relative z-10 px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center space-y-4">
+              <div className="flex flex-col jus/tify-center space-y-4">
                 <div className="inline-flex items-center rounded-lg bg-green-100 px-3 py-1 text-sm text-green-800">
                   <Download className="mr-1 h-4 w-4" />
                   Ứng dụng di động
@@ -49,15 +49,15 @@ export default function MobileAppPage() {
                       <Star key={i} className="h-5 w-5 fill-current" />
                     ))}
                   </div>
-                  <span className="text-sm text-gray-600">4.8/5 từ hơn 1,200 đánh giá</span>
+                  <span className="text-sm text-gray-600">5/5 từ hơn 3 đánh giá</span>
                 </div>
               </div>
               <div className="relative flex items-center justify-center">
                 <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-green-200 opacity-30 blur-3xl"></div>
                 <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-green-200 opacity-30 blur-3xl"></div>
                 <div className="relative z-10">
-                  <Image
-                    src="/placeholder.svg?height=600&width=300"
+                  <img
+                    src="./appmobile.jpg"
                     width={300}
                     height={600}
                     alt="SmartFarm Mobile App"
@@ -129,7 +129,7 @@ export default function MobileAppPage() {
                     <span className="text-xl font-bold">2</span>
                   </div>
                   <div className="mt-4 text-center">
-                    <h3 className="text-xl font-bold text-green-950">Phân tích thông minh</h3>
+                    <h3 className="text-xl font-bold text-green-950">Phân tích thông minh (Phát triển trong tương lai)</h3>
                     <p className="mt-2 text-gray-600">
                       Dữ liệu được xử lý bởi thuật toán AI để đưa ra các phân tích và đề xuất tối ưu.
                     </p>
@@ -154,7 +154,7 @@ export default function MobileAppPage() {
         </section>
 
         {/* Testimonials */}
-        <section className="w-full bg-green-50 py-12 md:py-24 lg:py-32">
+        {/* <section className="w-full bg-green-50 py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -195,7 +195,7 @@ export default function MobileAppPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Download Section */}
         <section id="download" className="w-full py-12 md:py-24 lg:py-32">
@@ -213,24 +213,7 @@ export default function MobileAppPage() {
                 </div>
                 <div className="space-y-4">
                   <div className="flex flex-col gap-2 sm:flex-row">
-                    <Link href="#" className="inline-block">
-                      <Image
-                        src="/placeholder.svg?height=60&width=200"
-                        width={200}
-                        height={60}
-                        alt="Download on App Store"
-                        className="h-[60px] w-auto"
-                      />
-                    </Link>
-                    <Link href="#" className="inline-block">
-                      <Image
-                        src="/placeholder.svg?height=60&width=200"
-                        width={200}
-                        height={60}
-                        alt="Get it on Google Play"
-                        className="h-[60px] w-auto"
-                      />
-                    </Link>
+                   
                   </div>
                   <div className="space-y-2">
                     <h3 className="text-xl font-bold text-green-950">Yêu cầu hệ thống:</h3>
@@ -255,9 +238,9 @@ export default function MobileAppPage() {
                 <div className="relative">
                   <div className="absolute -left-4 -top-4 h-64 w-64 rounded-full bg-green-200 opacity-30 blur-3xl"></div>
                   <div className="relative">
-                    <Image
-                      src="/placeholder.svg?height=500&width=250"
-                      width={250}
+                    <img
+                        src="./appmobile.jpg"
+                        width={250}
                       height={500}
                       alt="SmartFarm Mobile App"
                       className="rounded-[32px] shadow-xl"
@@ -324,7 +307,7 @@ export default function MobileAppPage() {
               <Button size="lg" className="bg-white text-green-900 hover:bg-green-50">
                 <Link href="#download">Tải ứng dụng</Link>
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-green-800">
+              <Button variant="outline" size="lg" className="border-white bg-black text-white hover:bg-green-800">
                 <Link href="/contact">Liên hệ hỗ trợ</Link>
               </Button>
             </div>

@@ -195,7 +195,7 @@ export default function AppFeatures() {
                 <div className="absolute -left-4 -top-4 h-64 w-64 rounded-full bg-green-200 opacity-20 blur-3xl"></div>
                 <div className="relative">
                   <img
-                    src={`/placeholder.svg?height=500&width=250&text=${activeFeature.title}`}
+                    src="./appmobile.jpg"
                     alt={`${activeFeature.title} screenshot`}
                     className="rounded-[32px] shadow-xl"
                     width={250}

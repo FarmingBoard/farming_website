@@ -35,33 +35,28 @@ export default function AppScreenshots() {
     {
       title: "Màn hình chính",
       description: "Tổng quan về tình trạng nông trại",
-      image: "/placeholder.svg?height=600&width=300&text=Dashboard",
+      image: "./appmobile.jpg",
     },
     {
-      title: "Theo dõi thời tiết",
-      description: "Dữ liệu thời tiết chi tiết",
-      image: "/placeholder.svg?height=600&width=300&text=Weather",
-    },
-    {
-      title: "Điều khiển tưới",
-      description: "Quản lý hệ thống tưới tự động",
-      image: "/placeholder.svg?height=600&width=300&text=Irrigation",
-    },
-    {
-      title: "Cảnh báo",
+      title: "Thông báo",
       description: "Thông báo và cảnh báo",
-      image: "/placeholder.svg?height=600&width=300&text=Alerts",
+      image: "./appmobile.jpg",
     },
     {
       title: "Phân tích dữ liệu",
       description: "Biểu đồ và báo cáo",
-      image: "/placeholder.svg?height=600&width=300&text=Analytics",
+      image: "./appmobile.jpg",
     },
     {
-      title: "Bản đồ nông trại",
-      description: "Bản đồ chi tiết khu vực canh tác",
-      image: "/placeholder.svg?height=600&width=300&text=Map",
+      title: "Thêm vườn",
+      description: "Thêm vườn để quản lý",
+      image: "./appmobile.jpg",
     },
+    {
+      title: "Thêm thiết bị",
+      description: "Thêm thiết bị qua bluetooth",
+      image: "./appmobile.jpg",
+    }
   ]
 
   return (

@@ -16,14 +16,14 @@ export default function Header() {
           <span className="text-lg font-bold text-green-950">SmartFarm</span>
         </Link>
         <nav className="hidden gap-6 md:ml-auto md:flex">
-          <Link href="/features" className="text-sm font-medium text-gray-600 transition-colors hover:text-green-600">
-            Tính năng
+          <Link href="/" className="text-sm font-medium text-gray-600 transition-colors hover:text-green-600">
+            Trang chủ
           </Link>
-          <Link href="/solutions" className="text-sm font-medium text-gray-600 transition-colors hover:text-green-600">
-            Giải pháp
+          <Link href="/mobile-app" className="text-sm font-medium text-gray-600 transition-colors hover:text-green-600">
+            Ứng dụng di động
           </Link>
           <Link href="/pricing" className="text-sm font-medium text-gray-600 transition-colors hover:text-green-600">
-            Bảng giá
+            Thiết bị
           </Link>
           <Link href="/blog" className="text-sm font-medium text-gray-600 transition-colors hover:text-green-600">
             Blog

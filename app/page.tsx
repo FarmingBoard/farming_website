@@ -30,8 +30,8 @@ export default function LandingPage() {
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
                   <Button className="bg-green-600 hover:bg-green-700" size="lg">
-                    <Link href="/demo" className="inline-flex items-center">
-                      Dùng thử miễn phí
+                    <Link href="https://github.com/zunohoang" className="inline-flex items-center">
+                      Liên hệ để được tư vấn
                       <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
                   </Button>
@@ -92,11 +92,11 @@ export default function LandingPage() {
                   <div className="absolute -left-4 -top-4 h-64 w-64 rounded-full bg-green-200 opacity-30 blur-3xl"></div>
                   <div className="relative">
                     <img
-                      src="/placeholder.svg?height=600&width=300"
+                      src="./appmobile.jpg"
                       alt="SmartFarm Mobile App"
                       className="rounded-[32px] shadow-2xl"
-                      width={300}
-                      height={600}
+                      width="300"
+                      height="600"
                     />
                   </div>
                 </div>
@@ -182,7 +182,7 @@ export default function LandingPage() {
                     >
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    <span className="text-gray-600">Phân tích dữ liệu và đề xuất tối ưu</span>
+                    <span className="text-gray-600">Phân tích dữ liệu và đề xuất tối ưu (Comming soon)</span>
                   </li>
                 </ul>
                 <div className="pt-4">
@@ -279,7 +279,7 @@ export default function LandingPage() {
                     >
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    <span className="text-gray-600">Tăng năng suất canh tác lên đến 30%</span>
+                    <span className="text-gray-600">Tăng năng suất canh tác lên đến xx%</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <svg
@@ -296,7 +296,7 @@ export default function LandingPage() {
                     >
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    <span className="text-gray-600">Giảm 25% chi phí lao động và vận hành</span>
+                    <span className="text-gray-600">Giảm xx% chi phí lao động và vận hành</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <svg
@@ -313,7 +313,7 @@ export default function LandingPage() {
                     >
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    <span className="text-gray-600">Tiết kiệm 40% lượng nước sử dụng</span>
+                    <span className="text-gray-600">Tiết kiệm xx% lượng nước sử dụng</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <svg
@@ -352,7 +352,7 @@ export default function LandingPage() {
                     >
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    <span className="text-gray-600">Dữ liệu phân tích chi tiết về hoạt động canh tác</span>
+                    <span className="text-gray-600">Dữ liệu phân tích chi tiết về hoạt động canh tác (Comming soon)</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <svg
@@ -386,7 +386,7 @@ export default function LandingPage() {
                     >
                       <path d="M20 6 9 17l-5-5" />
                     </svg>
-                    <span className="text-gray-600">Truy xuất nguồn gốc và chứng nhận sản phẩm</span>
+                    <span className="text-gray-600">Truy xuất nguồn gốc và chứng nhận sản phẩm (Comming soon)</span>
                   </li>
                   <li className="flex items-start space-x-2">
                     <svg
@@ -454,7 +454,7 @@ export default function LandingPage() {
         </section>
 
         {/* Khách hàng đã sử dụng */}
-        <section className="w-full bg-gradient-to-b from-green-50 to-white py-12 md:py-24 lg:py-32">
+        {/* <section className="w-full bg-gradient-to-b from-green-50 to-white py-12 md:py-24 lg:py-32">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -503,7 +503,7 @@ export default function LandingPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* FAQ */}
         <section className="w-full py-12 md:py-24 lg:py-32">
@@ -548,9 +548,9 @@ export default function LandingPage() {
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-end">
               <Button size="lg" className="bg-white text-green-900 hover:bg-green-50">
-                <Link href="/demo">Dùng thử miễn phí</Link>
+                <Link href="/demo">Mua ngay thử nghiệm</Link>
               </Button>
-              <Button variant="outline" size="lg" className="border-white text-white hover:bg-green-800">
+              <Button variant="outline" size="lg" className="border-white text-white bg-black hover:bg-green-800">
                 <Link href="/contact">Liên hệ với chúng tôi</Link>
               </Button>
             </div>
@@ -581,7 +581,7 @@ const features = [
   },
   {
     title: "Quản lý dữ liệu",
-    description: "Lưu trữ và phân tích dữ liệu canh tác, giúp cải thiện quy trình liên tục.",
+    description: "Lưu trữ dữ liệu canh tác, giúp cải thiện quy trình liên tục.",
     icon: <Database className="h-6 w-6" />,
   },
   {
@@ -600,58 +600,43 @@ const applications = [
   {
     title: "Nhà kính thông minh",
     description: "Điều khiển tự động nhiệt độ, độ ẩm và ánh sáng cho cây trồng trong nhà kính.",
-    image: "/placeholder.svg?height=450&width=600",
+    image: "./nha-kinh.jpg",
   },
   {
     title: "Canh tác rau hữu cơ",
     description: "Tối ưu hóa quy trình trồng rau hữu cơ với hệ thống giám sát và kiểm soát chất lượng.",
-    image: "/placeholder.svg?height=450&width=600",
-  },
-  {
-    title: "Vườn cây ăn quả",
-    description: "Giám sát và quản lý hiệu quả năng suất các loại cây ăn quả quy mô lớn.",
-    image: "/placeholder.svg?height=450&width=600",
-  },
-  {
-    title: "Trang trại chăn nuôi",
-    description: "Theo dõi sức khỏe vật nuôi và tối ưu hóa quy trình cho trang trại chăn nuôi.",
-    image: "/placeholder.svg?height=450&width=600",
-  },
-  {
-    title: "Thủy sản thông minh",
-    description: "Hệ thống giám sát và điều khiển nuôi trồng thủy sản thông minh.",
-    image: "/placeholder.svg?height=450&width=600",
+    image: "./rau.gif",
   },
   {
     title: "Nông nghiệp chính xác",
     description: "Ứng dụng công nghệ cao trong nông nghiệp chính xác quy mô lớn.",
-    image: "/placeholder.svg?height=450&width=600",
+    image: "./du-lieu-farm.jpg",
   },
 ]
 
-const testimonials = [
-  {
-    name: "Nguyễn Văn A",
-    role: "Chủ Trang Trại, Đà Lạt",
-    quote:
-      "Sau khi áp dụng Smart Farming, năng suất trang trại của tôi tăng 40% trong khi chi phí giảm đáng kể. Một giải pháp tuyệt vời!",
-    avatar: "/placeholder.svg?height=100&width=100",
-  },
-  {
-    name: "Trần Thị B",
-    role: "Giám đốc Công ty Nông sản XYZ",
-    quote:
-      "Hệ thống giúp chúng tôi kiểm soát chất lượng sản phẩm xuyên suốt từ khâu trồng trọt đến thu hoạch, đáp ứng tiêu chuẩn xuất khẩu khắt khe.",
-    avatar: "/placeholder.svg?height=100&width=100",
-  },
-  {
-    name: "Lê Văn C",
-    role: "Chủ Hợp tác xã Nông nghiệp Tân Tiến",
-    quote:
-      "Smart Farming đã giúp các thành viên trong HTX của chúng tôi hiện đại hóa quy trình canh tác và tăng thu nhập đáng kể.",
-    avatar: "/placeholder.svg?height=100&width=100",
-  },
-]
+// const testimonials = [
+//   {
+//     name: "Nguyễn Văn A",
+//     role: "Chủ Trang Trại, Đà Lạt",
+//     quote:
+//       "Sau khi áp dụng Smart Farming, năng suất trang trại của tôi tăng 40% trong khi chi phí giảm đáng kể. Một giải pháp tuyệt vời!",
+//     avatar: "/placeholder.svg?height=100&width=100",
+//   },
+//   {
+//     name: "Trần Thị B",
+//     role: "Giám đốc Công ty Nông sản XYZ",
+//     quote:
+//       "Hệ thống giúp chúng tôi kiểm soát chất lượng sản phẩm xuyên suốt từ khâu trồng trọt đến thu hoạch, đáp ứng tiêu chuẩn xuất khẩu khắt khe.",
+//     avatar: "/placeholder.svg?height=100&width=100",
+//   },
+//   {
+//     name: "Lê Văn C",
+//     role: "Chủ Hợp tác xã Nông nghiệp Tân Tiến",
+//     quote:
+//       "Smart Farming đã giúp các thành viên trong HTX của chúng tôi hiện đại hóa quy trình canh tác và tăng thu nhập đáng kể.",
+//     avatar: "/placeholder.svg?height=100&width=100",
+//   },
+// ]
 
 const faqs = [
   {
